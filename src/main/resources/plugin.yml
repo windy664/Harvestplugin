@@ -1,0 +1,4 @@
+name: Harvestplugin
+version: $version
+main: org.windy.harvestplugin.Harvestplugin
+api-version: '1.21'

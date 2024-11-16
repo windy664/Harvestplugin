@@ -1,0 +1,35 @@
+# 是否需要手持锄头才能收割作物
+require-hoe: false
+
+# 手持锄头收割作物时消耗的耐久值
+damage-on-harvest: 1
+
+# 每次收割作物时玩家获得的经验值（注意是经验点数）
+exp-on-harvest: 5
+
+# 是否在收割作物时播放音效
+play-sound: true
+
+# 自定义作物的游戏内 ID 列表，如果插件无法识别某些模组作物，可以手动添加它们
+crops: []
+
+# 各种锄头的收割半径设置
+# 例如，木锄的半径为 1，钻石锄的半径为 4
+harvest-radius:
+  WOODEN_HOE: 1
+  STONE_HOE: 2
+  IRON_HOE: 3
+  DIAMOND_HOE: 4
+  NETHERITE_HOE: 5
+
+# 冷却时间，单位秒
+cooldown_time: 2
+
+# 收割作物时的收入加成比例
+# 玩家需要具有相应的权限才能享受加成
+income-bonus:
+  default: 0       # 没有权限的玩家加成比例为 0
+  vip: 0.2         # VIP 玩家加成 20%
+  premium: 0.5     # 高级玩家加成 50%
+
+debug-mode: false  # 是否启用调试模式
